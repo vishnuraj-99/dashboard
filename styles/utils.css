@@ -1,0 +1,86 @@
+/* -------------xs------------- */
+@media (min-width: 475px) {
+}
+
+/* ----------------sm ------------------*/
+@media (min-width: 640px) {
+}
+/* ---------------md-------------- */
+@media (min-width: 768px) {
+  .header-sec-container {
+    display: none;
+  }
+  .side-bar-sec-container {
+    display: block;
+  }
+  body {
+    display: flex;
+  }
+  .hide-section-task {
+    display: block;
+  }
+  .tasks-container {
+    display: none;
+  }
+  .transactions-container {
+    display: none;
+  }
+
+  /* changing img for web */
+  .uptodate-img {
+    src: "./images/doc-web.svg";
+  }
+  .chart-img {
+    src: "./images/applicatio-web.svg";
+  }
+}
+/* -------------------lg ---------*/
+@media (min-width: 1024px) {
+}
+
+/*----------------- xl -------------------*/
+@media (min-width: 1280px) {
+}
+/* -----------------2xl -----------------*/
+@media (min-width: 1536px) {
+}
+/*------------------------------------------*/
+/*------------utilitie calsses----------*/
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}

@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/generalStyle.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/utils.css" />
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header sec -->
+    <header class="header-sec-container">
+      <div class="logo-container">
+        <div class="logo-wrapr">
+          <img src="./images/companyLogo.svg" alt="" />
+        </div>
+        <div class="name-wrpr">
+          <p class="company-name">E-Dashboard</p>
+        </div>
+      </div>
+      <div class="nav-icon-wrapr">
+        <img src="./images/hambergrIcon.svg" alt="" />
+      </div>
+    </header>
+    <!-- side bar sec on web-->
+
+    <section class="side-bar-sec-container">
+      <!-- top items -->
+      <div class="top-itm">
+        <div class="sidebar-logo-container">
+          <div class="si-company-logo-wrapr">
+            <img src="./images/companyLogo.svg" alt="" />
+          </div>
+          <div class="si-company-name-wrapr">
+            <p class="si-company-name">E-Dashboard</p>
+          </div>
+          <div class="si-close-wrapr">
+            <img src="./images/sidebarClose.svg" alt="" />
+          </div>
+        </div>
+        <div class="client-select-container">
+          <div class="client-icon-wrapr">
+            <img src="./images/clientImg.svg" alt="" />
+          </div>
+          <div class="client-name-wrapr">
+            <p class="client-name">Alphalinx inc.</p>
+          </div>
+          <div class="drop-dwn-icon-wrapr">
+            <img src="./images/expand_more.svg" alt="" />
+          </div>
+        </div>
+        <div class="nav-items-conatiner">
+          <div class="nav-single-item-container">
+            <div class="nav-item-icon-wrapr">
+              <img src="./images/dashbordIcon.svg" alt="" />
+            </div>
+            <div class="nav-item-name-wrapr">
+              <p class="nav-item-name">Dashboard</p>
+            </div>
+          </div>
+          <div class="nav-single-item-container">
+            <div class="nav-item-icon-wrapr">
+              <img src="./images/mybuisnessIcon.svg" alt="" />
+            </div>
+            <div class="nav-item-name-wrapr">
+              <p class="nav-item-name">My Business</p>
+            </div>
+            <div class="nav-item-dropdown-wrpr">
+              <img src="./images/arrow_drop_down.svg" alt="" />
+            </div>
+            <!-- Dropdown Content -->
+          </div>
+          <div class="nav-single-item-container">
+            <div class="nav-item-icon-wrapr">
+              <img src="./images/financilaIcon.svg" alt="" />
+            </div>
+            <div class="nav-item-name-wrapr">
+              <p class="nav-item-name">Financial Resources</p>
+            </div>
+            <div class="nav-item-dropdown-wrpr">
+              <img src="./images/arrow_drop_down.svg" alt="" />
+            </div>
+            <!-- Dropdown Content -->
+          </div>
+          <div class="nav-single-item-container">
+            <div class="nav-item-icon-wrapr">
+              <img src="./images/mailBoxicon.svg" alt="" />
+            </div>
+            <div class="nav-item-name-wrapr">
+              <p class="nav-item-name">Mailbox</p>
+            </div>
+          </div>
+          <div class="nav-single-item-container">
+            <div class="nav-item-icon-wrapr">
+              <img src="./images/airplane_ticket.svg" alt="" />
+            </div>
+            <div class="nav-item-name-wrapr">
+              <p class="nav-item-name">Visa Center</p>
+            </div>
+          </div>
+          <div class="nav-single-item-container">
+            <div class="nav-item-icon-wrapr">
+              <img src="./images/quiz.svg" alt="" />
+            </div>
+            <div class="nav-item-name-wrapr">
+              <p class="nav-item-name">Compliance</p>
+            </div>
+            <div class="compliance-icon">
+              <img src="./images/compliencecount.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom items -->
+      <div class="bottom-itm">
+        <div class="nav-single-item-container">
+          <div class="nav-item-icon-wrapr">
+            <img src="./images/airplane_ticket.svg" alt="" />
+          </div>
+          <div class="nav-item-name-wrapr">
+            <p class="nav-item-name">Notifications</p>
+          </div>
+        </div>
+        <div class="nav-single-item-container">
+          <div class="nav-item-icon-wrapr">
+            <img src="./images/airplane_ticket.svg" alt="" />
+          </div>
+          <div class="nav-item-name-wrapr">
+            <p class="nav-item-name">Help center</p>
+          </div>
+        </div>
+        <div class="client-select-container">
+          <div class="client-icon-wrapr">
+            <img src="./images/clientImg.svg" alt="" />
+          </div>
+          <div class="client-name-wrapr">
+            <p class="client-name">Jacob James</p>
+          </div>
+          <div class="drop-dwn-icon-wrapr">
+            <img src="./images/expand_more.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!--  -->
+    </section>
+
+    <div class="side-bar-minimized-icon-wrapr hide-section">
+      <img src="./images/sidebarClose.svg" alt="" />
+    </div>
+
+    <!-- main content 1  -->
+    <!-- gudmorning to legal compliance -->
+    <section class="main-content-container padding-sec-main-container">
+      <div class="main-sec-flex1">
+        <!-- wlcm box -->
+        <div class="welcome-txt-container">
+          <div class="wish-txt-wrpr">
+            <p class="wish-txt">
+              Good morning,<span class="name-user">Emily</span>
+            </p>
+            <div class="tata-icon">
+              <img src="./images/tataimg.svg" alt="" />
+            </div>
+          </div>
+          <div class="welcome-back-wrapr">
+            <p class="welcome-back-wrapr">Welcome back</p>
+          </div>
+        </div>
+        <!-- uptodate box -->
+        <div class="up-to-date-container">
+          <div class="uptodate-img-wrapr">
+            <img
+              src="./images/Documents note.svg"
+              alt=""
+              class="uptodate-img"
+            />
+          </div>
+          <div class="chart-img-wrapr">
+            <img src="./images/applications.svg" alt="" class="chart-img" />
+          </div>
+        </div>
+        <!-- mail box -->
+        <div class="mail-container">
+          <div class="mail-head-container">
+            <div class="mail-head-txt-container">
+              <p class="mail-head-txt">Mail</p>
+              <p class="view-all-lnk"><a href="">View all</a></p>
+            </div>
+            <div class="mail-desc-wrapr">
+              <p class="mail-desc">Check on your all your mail in one go</p>
+            </div>
+          </div>
+          <div class="mail-numbers-container">
+            <div class="single-mail-number-container">
+              <div class="mail-number-nd-icon">
+                <div class="mail-icon-wrapr">
+                  <img src="./images/update-tic.svg" alt="" />
+                </div>
+                <div class="mail-number-nd-head">
+                  <div class="number-head-wrapr">
+                    <p class="number-head-txt">Updates</p>
+                  </div>
+                  <div class="mail-number-wrapr">
+                    <p class="mail-number">23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="vertical-line-icon-wrapr">
+                <img src="./images/Line 39.svg" alt="" />
+              </div>
+            </div>
+            <div class="single-mail-number-container">
+              <div class="mail-number-nd-icon">
+                <div class="mail-icon-wrapr">
+                  <img src="./images/pending.svg" alt="" />
+                </div>
+                <div class="mail-number-nd-head">
+                  <div class="number-head-wrapr">
+                    <p class="number-head-txt">Pending</p>
+                  </div>
+                  <div class="mail-number-wrapr">
+                    <p class="mail-number">23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="vertical-line-icon-wrapr">
+                <img src="./images/Line 39.svg" alt="" />
+              </div>
+            </div>
+            <div class="single-mail-number-container">
+              <div class="mail-number-nd-icon">
+                <div class="mail-icon-wrapr">
+                  <img src="./images/reminder.svg" alt="" />
+                </div>
+                <div class="mail-number-nd-head">
+                  <div class="number-head-wrapr">
+                    <p class="number-head-txt">Reminders</p>
+                  </div>
+                  <div class="mail-number-wrapr">
+                    <p class="mail-number">23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="vertical-line-icon-wrapr">
+                <img src="./images/Line 39.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- legal box -->
+        <div class="mail-container">
+          <div class="mail-head-container">
+            <div class="mail-head-txt-container">
+              <p class="mail-head-txt">Legal compliance</p>
+              <p class="view-all-lnk"><a href="">View all</a></p>
+            </div>
+            <div class="mail-desc-wrapr">
+              <p class="mail-desc">Keep your requirements up to date</p>
+            </div>
+          </div>
+          <div class="mail-numbers-container">
+            <div class="single-mail-number-container">
+              <div class="mail-number-nd-icon">
+                <div class="mail-icon-wrapr">
+                  <img src="./images/update-tic.svg" alt="" />
+                </div>
+                <div class="mail-number-nd-head">
+                  <div class="number-head-wrapr">
+                    <p class="number-head-txt">Updates</p>
+                  </div>
+                  <div class="mail-number-wrapr">
+                    <p class="mail-number">23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="vertical-line-icon-wrapr">
+                <img src="./images/Line 39.svg" alt="" />
+              </div>
+            </div>
+            <div class="single-mail-number-container">
+              <div class="mail-number-nd-icon">
+                <div class="mail-icon-wrapr">
+                  <img src="./images/pending.svg" alt="" />
+                </div>
+                <div class="mail-number-nd-head">
+                  <div class="number-head-wrapr">
+                    <p class="number-head-txt">Pending</p>
+                  </div>
+                  <div class="mail-number-wrapr">
+                    <p class="mail-number">23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="vertical-line-icon-wrapr">
+                <img src="./images/Line 39.svg" alt="" />
+              </div>
+            </div>
+            <div class="single-mail-number-container">
+              <div class="mail-number-nd-icon">
+                <div class="mail-icon-wrapr">
+                  <img src="./images/reminder.svg" alt="" />
+                </div>
+                <div class="mail-number-nd-head">
+                  <div class="number-head-wrapr">
+                    <p class="number-head-txt">Reminders</p>
+                  </div>
+                  <div class="mail-number-wrapr">
+                    <p class="mail-number">23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="vertical-line-icon-wrapr">
+                <img src="./images/Line 39.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- tasks and transaction history -->
+    <section>
+      <div class="main-sec-flex2">
+        <!-- mobile tasks -->
+        <div class="tasks-container">
+          <div class="tasks-head-container">
+            <!-- tasks heading box -->
+            <div class="tasks-main-head-container">
+              <div class="tasks-head-wrapr">
+                <p class="tasks-head-txt">Tasks</p>
+              </div>
+              <div class="tasks-view-all-wrapr">
+                <a href="" class="tsk-view-all-link">View all</a>
+              </div>
+            </div>
+            <!-- task selections box -->
+            <div class="tasks-type-selections-container">
+              <div class="selected-task-wrapr">
+                <p class="selected-task-txt">My tasks</p>
+              </div>
+              <div class="unselected-task-wrapr">
+                <p class="unselected-task-txt">Overdue</p>
+              </div>
+              <div class="unselected-task-wrapr">
+                <p class="unselected-task-txt">Assigned by me</p>
+              </div>
+            </div>
+            <!-- single task container -->
+            <div class="single-task-container">
+              <div class="single-task-head-wrapr">
+                <p class="single-task-head-txt">
+                  Update Tax Document for Alphalinix
+                </p>
+              </div>
+
+              <div class="category-nd-dueDate-container">
+                <div class="category-nd-due-head">
+                  <div class="category-head-wrapr">
+                    <p class="category-head-txt">Category</p>
+                  </div>
+                  <div class="due-head-wrapr">
+                    <p class="due-head-txt">Due date</p>
+                  </div>
+                </div>
+                <div class="category-nd-due-value">
+                  <div class="category-value-wrapr">
+                    <p class="category-value-txt">Compliance</p>
+                  </div>
+                  <div class="due-value-wrapr">
+                    <p class="due-value-txt">23/11/23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-status-container">
+                <div class="status-head-wrapr">
+                  <p class="status-head-txt">Status</p>
+                </div>
+                <div class="status-value-wrapr">
+                  <span class="status-value-txt">Request sent</span>
+                </div>
+              </div>
+              <div class="bottom-horizontal-line-contaoner">
+                <hr class="task-sec-bottom-hrline" />
+              </div>
+            </div>
+            <div class="single-task-container">
+              <div class="single-task-head-wrapr">
+                <p class="single-task-head-txt">Update KYC document</p>
+              </div>
+
+              <div class="category-nd-dueDate-container">
+                <div class="category-nd-due-head">
+                  <div class="category-head-wrapr">
+                    <p class="category-head-txt">Category</p>
+                  </div>
+                  <div class="due-head-wrapr">
+                    <p class="due-head-txt">Due date</p>
+                  </div>
+                </div>
+                <div class="category-nd-due-value">
+                  <div class="category-value-wrapr">
+                    <p class="category-value-txt">Compliance</p>
+                  </div>
+                  <div class="due-value-wrapr">
+                    <p class="due-value-txt">23/11/23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-status-container">
+                <div class="status-head-wrapr">
+                  <p class="status-head-txt">Status</p>
+                </div>
+                <div class="status-value-wrapr">
+                  <span class="status-value-txt">Request sent</span>
+                </div>
+              </div>
+              <div class="bottom-horizontal-line-contaoner">
+                <hr class="task-sec-bottom-hrline" />
+              </div>
+            </div>
+            <div class="single-task-container">
+              <div class="single-task-head-wrapr">
+                <p class="single-task-head-txt">
+                  Add clearer photo for visa application
+                </p>
+              </div>
+
+              <div class="category-nd-dueDate-container">
+                <div class="category-nd-due-head">
+                  <div class="category-head-wrapr">
+                    <p class="category-head-txt">Category</p>
+                  </div>
+                  <div class="due-head-wrapr">
+                    <p class="due-head-txt">Due date</p>
+                  </div>
+                </div>
+                <div class="category-nd-due-value">
+                  <div class="category-value-wrapr">
+                    <p class="category-value-txt">Compliance</p>
+                  </div>
+                  <div class="due-value-wrapr">
+                    <p class="due-value-txt">23/11/23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-status-container">
+                <div class="status-head-wrapr">
+                  <p class="status-head-txt">Status</p>
+                </div>
+                <div class="status-value-wrapr">
+                  <span class="status-value-txt">Pending Action</span>
+                </div>
+              </div>
+              <div class="bottom-horizontal-line-contaoner">
+                <hr class="task-sec-bottom-hrline" />
+              </div>
+            </div>
+            <div class="single-task-container">
+              <div class="single-task-head-wrapr">
+                <p class="single-task-head-txt">
+                  Document not clear: please add new file
+                </p>
+              </div>
+
+              <div class="category-nd-dueDate-container">
+                <div class="category-nd-due-head">
+                  <div class="category-head-wrapr">
+                    <p class="category-head-txt">Category</p>
+                  </div>
+                  <div class="due-head-wrapr">
+                    <p class="due-head-txt">Due date</p>
+                  </div>
+                </div>
+                <div class="category-nd-due-value">
+                  <div class="category-value-wrapr">
+                    <p class="category-value-txt">Compliance</p>
+                  </div>
+                  <div class="due-value-wrapr">
+                    <p class="due-value-txt">23/11/23</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task-status-container">
+                <div class="status-head-wrapr">
+                  <p class="status-head-txt">Status</p>
+                </div>
+                <div class="status-value-wrapr">
+                  <span class="status-value-txt">Pending Action</span>
+                </div>
+              </div>
+              <div class="bottom-horizontal-line-contaoner">
+                <hr class="task-sec-bottom-hrline" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- web tasks -->
+        <div class="task-container hide-section-task">
+          <div class="task-header">
+            <h2 class="tasks-heading-txt">
+              Tasks <a href="#" class="view-all">View all</a>
+            </h2>
+          </div>
+          <div class="task-tabs">
+            <button class="tab-button active">My tasks</button>
+            <button class="tab-button">Overdue</button>
+            <button class="tab-button">Assigned by me</button>
+          </div>
+          <div class="task-table">
+            <table>
+              <thead>
+                <tr>
+                  <th class="task-table-heading">Task</th>
+                  <th class="task-table-heading">Category</th>
+                  <th class="task-table-heading">Due date</th>
+                  <th class="task-table-heading">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="td-txt">Update Tax Document for Alphalinx...</td>
+                  <td class="td-txt">Compliance</td>
+                  <td class="td-txt">23/11/23</td>
+                  <td><span class="status request-sent">Request sent</span></td>
+                </tr>
+                <tr>
+                  <td class="td-txt">Update KYC document</td>
+                  <td class="td-txt">Compliance</td>
+                  <td class="td-txt">23/11/23</td>
+                  <td><span class="status request-sent">Request sent</span></td>
+                </tr>
+                <tr>
+                  <td class="td-txt">Add clearer photo for visa application</td>
+                  <td class="td-txt">Visa center</td>
+                  <td class="td-txt">23/11/23</td>
+                  <td>
+                    <span class="status pending-action">Pending action</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td-txt">
+                    Document not clear: please add new file
+                  </td>
+                  <td class="td-txt">Visa center</td>
+                  <td class="td-txt">23/11/23</td>
+                  <td>
+                    <span class="status pending-action">Pending action</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- --------------transactions ----------------->
+
+        <!-- mobile transaction -->
+        <div class="transactions-container">
+          <!-- head -->
+          <div class="transaction-head-container">
+            <div class="transaction-head-wrapr">
+              <p class="transaction-head-txt">Transaction history</p>
+            </div>
+            <div class="transaction-viewAll-wrapr">
+              <a href="" class="transaction-viewAll-txt">View all</a>
+            </div>
+          </div>
+          <!-- single transaction -->
+
+          <div class="single-transaction-box">
+            <div class="transaction-id-nd-date">
+              <div class="transaction-id-box">
+                <div class="transaction-id-wrapr">
+                  <p class="transaction-id-txt">#764657758</p>
+                </div>
+                <div class="transaction-price-nd-icon-container">
+                  <div class="transaction-price-wrapr">
+                    <p class="transaction-price-txt">$5.99</p>
+                  </div>
+                  <div class="toggle-icon-wrapr">
+                    <img
+                      src="./images/trans-arrow-dwn.svg"
+                      alt=""
+                      class="toggle-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="transaction-date-box">
+                <div class="transaction-date-wrapr">
+                  <p class="transaction-date-txt">23/02/19</p>
+                </div>
+              </div>
+            </div>
+            <div class="transaction-desc-container hide-section">
+              <div class="desc-head-wrapr">
+                <p class="transaction-date-txt">Description</p>
+              </div>
+              <div class="desc-value-head-wrapr">
+                <p class="desc-value-head-txt">Mailroom</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-transaction-box">
+            <div class="transaction-id-nd-date">
+              <div class="transaction-id-box">
+                <div class="transaction-id-wrapr">
+                  <p class="transaction-id-txt">#764657758</p>
+                </div>
+                <div class="transaction-price-nd-icon-container">
+                  <div class="transaction-price-wrapr">
+                    <p class="transaction-price-txt">$99</p>
+                  </div>
+                  <div class="toggle-icon-wrapr">
+                    <img
+                      src="./images/trans-arrow-dwn.svg"
+                      alt=""
+                      class="toggle-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="transaction-date-box">
+                <div class="transaction-date-wrapr">
+                  <p class="transaction-date-txt">23/02/19</p>
+                </div>
+              </div>
+            </div>
+            <div class="transaction-desc-container hide-section">
+              <div class="desc-head-wrapr">
+                <p class="transaction-date-txt">Description</p>
+              </div>
+              <div class="desc-value-head-wrapr">
+                <p class="desc-value-head-txt">Mailroom</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-transaction-box">
+            <div class="transaction-id-nd-date">
+              <div class="transaction-id-box">
+                <div class="transaction-id-wrapr">
+                  <p class="transaction-id-txt">#764657758</p>
+                </div>
+                <div class="transaction-price-nd-icon-container">
+                  <div class="transaction-price-wrapr">
+                    <p class="transaction-price-txt">$15</p>
+                  </div>
+                  <div class="toggle-icon-wrapr">
+                    <img
+                      src="./images/trans-arrow-dwn.svg"
+                      alt=""
+                      class="toggle-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="transaction-date-box">
+                <div class="transaction-date-wrapr">
+                  <p class="transaction-date-txt">23/02/19</p>
+                </div>
+              </div>
+            </div>
+            <div class="transaction-desc-container hide-section">
+              <div class="desc-head-wrapr">
+                <p class="transaction-date-txt">Description</p>
+              </div>
+              <div class="desc-value-head-wrapr">
+                <p class="desc-value-head-txt">Mailroom</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-transaction-box">
+            <div class="transaction-id-nd-date">
+              <div class="transaction-id-box">
+                <div class="transaction-id-wrapr">
+                  <p class="transaction-id-txt">#764657758</p>
+                </div>
+                <div class="transaction-price-nd-icon-container">
+                  <div class="transaction-price-wrapr">
+                    <p class="transaction-price-txt">$30</p>
+                  </div>
+                  <div class="toggle-icon-wrapr">
+                    <img
+                      src="./images/trans-arrow-dwn.svg"
+                      alt=""
+                      class="toggle-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="transaction-date-box">
+                <div class="transaction-date-wrapr">
+                  <p class="transaction-date-txt">23/02/19</p>
+                </div>
+              </div>
+            </div>
+            <div class="transaction-desc-container hide-section">
+              <div class="desc-head-wrapr">
+                <p class="transaction-date-txt">Description</p>
+              </div>
+              <div class="desc-value-head-wrapr">
+                <p class="desc-value-head-txt">Mailroom</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-transaction-box">
+            <div class="transaction-id-nd-date">
+              <div class="transaction-id-box">
+                <div class="transaction-id-wrapr">
+                  <p class="transaction-id-txt">#764657758</p>
+                </div>
+                <div class="transaction-price-nd-icon-container">
+                  <div class="transaction-price-wrapr">
+                    <p class="transaction-price-txt">$6.8</p>
+                  </div>
+                  <div class="toggle-icon-wrapr">
+                    <img
+                      src="./images/trans-arrow-dwn.svg"
+                      alt=""
+                      class="toggle-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="transaction-date-box">
+                <div class="transaction-date-wrapr">
+                  <p class="transaction-date-txt">23/02/19</p>
+                </div>
+              </div>
+            </div>
+            <div class="transaction-desc-container hide-section">
+              <div class="desc-head-wrapr">
+                <p class="transaction-date-txt">Description</p>
+              </div>
+              <div class="desc-value-head-wrapr">
+                <p class="desc-value-head-txt">Mailroom</p>
+              </div>
+            </div>
+          </div>
+          <div class="single-transaction-box">
+            <div class="transaction-id-nd-date">
+              <div class="transaction-id-box">
+                <div class="transaction-id-wrapr">
+                  <p class="transaction-id-txt">#764657758</p>
+                </div>
+                <div class="transaction-price-nd-icon-container">
+                  <div class="transaction-price-wrapr">
+                    <p class="transaction-price-txt">$3</p>
+                  </div>
+                  <div class="toggle-icon-wrapr">
+                    <img
+                      src="./images/trans-arrow-dwn.svg"
+                      alt=""
+                      class="toggle-icon"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="transaction-date-box">
+                <div class="transaction-date-wrapr">
+                  <p class="transaction-date-txt">23/02/19</p>
+                </div>
+              </div>
+            </div>
+            <div class="transaction-desc-container hide-section">
+              <div class="desc-head-wrapr">
+                <p class="transaction-date-txt">Description</p>
+              </div>
+              <div class="desc-value-head-wrapr">
+                <p class="desc-value-head-txt">Mailroom</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -------web transaction---------- -->
+        <div class="task-container hide-section-task">
+          <div class="task-header">
+            <h2 class="tasks-heading-txt">
+              Payment History <a href="#" class="view-all">View all</a>
+            </h2>
+          </div>
+
+          <div class="task-table">
+            <table>
+              <thead>
+                <tr>
+                  <th class="task-table-heading">Transaction id</th>
+                  <th class="task-table-heading">Date of trnsaction</th>
+                  <th class="task-table-heading">Amount</th>
+                  <th class="task-table-heading">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="td-txt bold">#764657758</td>
+                  <td class="td-txt">23/01/19</td>
+                  <td class="td-txt">$5.99</td>
+                  <td class="td-txt">Mailbox</td>
+                </tr>
+                <tr>
+                  <td class="td-txt bold">#764657758</td>
+                  <td class="td-txt">23/01/19</td>
+                  <td class="td-txt">$5.99</td>
+                  <td class="td-txt">Mailbox</td>
+                </tr>
+                <tr>
+                  <td class="td-txt bold">#764657758</td>
+                  <td class="td-txt">23/01/19</td>
+                  <td class="td-txt">$5.99</td>
+                  <td class="td-txt">Mailbox</td>
+                </tr>
+                <tr>
+                  <td class="td-txt bold">#764657758</td>
+                  <td class="td-txt">23/01/19</td>
+                  <td class="td-txt">$5.99</td>
+                  <td class="td-txt">Mailbox</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--scripts  -->
+    <script src="./scripts/toggling.js"></script>
+  </body>
+</html>

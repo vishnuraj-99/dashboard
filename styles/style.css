@@ -1,0 +1,534 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile View */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f6fa;
+}
+
+/*header sec*/
+.header-sec-container {
+  background-color: #0f1738;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  gap: 1.78px;
+  padding-top: 43px;
+  padding-bottom: 15px;
+}
+.logo-wrapr {
+  padding-left: 16px;
+}
+.company-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: white;
+}
+.nav-icon-wrapr {
+  padding-right: 22px;
+  padding-top: 52px;
+  padding-bottom: 15px;
+}
+/*sidebar sec*/
+
+/* ---dropdown  */
+.dropdwn-content {
+  position: absolute;
+}
+.drpdwn-items-ul {
+}
+.drpdwn-item {
+}
+
+/* -------------- */
+
+.bottom-itm {
+  position: absolute;
+  bottom: 0;
+}
+
+.side-bar-minimized-icon-wrapr {
+  background-color: #0f1738;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.side-bar-sec-container {
+  background-color: #0f1738;
+
+  min-width: 293px;
+  display: none;
+  flex-direction: column;
+
+  position: relative;
+}
+.si-company-name {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: white;
+}
+.sidebar-logo-container {
+  display: flex;
+  gap: 1px;
+  margin-left: 32px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  margin-top: 24px;
+}
+.si-close-wrapr {
+  margin-left: 54.35px;
+}
+.client-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: white;
+}
+.client-select-container {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 44px;
+}
+.nav-items-conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nav-single-item-container {
+  display: flex;
+
+  align-items: center;
+  gap: 2px;
+  margin-left: 19px;
+  margin-right: 45px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.nav-item-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: white;
+}
+.logo-wrapr {
+  margin-left: 32px;
+}
+/* main container */
+/* wlcome-box */
+.welcome-txt-container {
+  margin-top: 40px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.wish-txt-wrpr {
+  display: flex;
+  gap: 20px;
+}
+.wish-txt {
+  font-size: 26px;
+  line-height: 28.6px;
+  font-weight: 400;
+  color: #1e1f21;
+}
+.name-user {
+  font-weight: 500;
+}
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9ff;
+}
+.main-sec-flex1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.uptodate-img-wrapr {
+  width: 100%;
+}
+/* mail -box */
+
+.mail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.mail-head-txt-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-numbers-container {
+  display: flex;
+  gap: 16px;
+}
+
+.mail-head-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.single-mail-number-container {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.mail-number-nd-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29.05px;
+}
+.mail-number-nd-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+.number-head-txt {
+  font-family: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #676161;
+}
+.mail-number {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+}
+.mail-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+}
+.mail-head-txt {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+}
+/* mobile tasks */
+.main-sec-flex2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tasks-container {
+  margin-top: 32px;
+}
+.tasks-head-container {
+  display: flex;
+  flex-direction: column;
+}
+.tasks-main-head-container {
+  display: flex;
+  gap: 255px;
+  margin-bottom: 24px;
+}
+.tasks-type-selections-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.single-task-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tasks-head-txt {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+/* task selection box -->tasks sec */
+
+.selected-task-txt {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  color: black;
+}
+.unselected-task-txt {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  color: #6a6a6d;
+}
+/*  */
+.single-task-head-txt {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #1e1f21;
+}
+
+.category-nd-dueDate-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.category-nd-due-head {
+  display: flex;
+  gap: 137px;
+}
+
+.category-nd-due-value {
+  display: flex;
+  gap: 116px;
+}
+.category-head-txt {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.9px;
+  letter-spacing: 0.5%;
+  color: #6a6a6d;
+  /* margin-right: 137px; */
+}
+.due-head-txt {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.9px;
+  letter-spacing: 0.5%;
+  color: #6a6a6d;
+}
+
+.category-value-txt {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #1e1f21;
+}
+.due-value-txt {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #1e1f21;
+}
+
+/*  */
+.task-status-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.status-head-txt {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.9px;
+  letter-spacing: 0.5%;
+}
+.status-value-txt {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15.6px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #ceced1;
+  color: #6a6a6d;
+  border-radius: 24px;
+}
+.task-sec-bottom-hrline {
+  border: 1px solid #e5e9ff;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+/* transaction section */
+.transaction-desc-container {
+  background-color: #f8f9fc;
+}
+
+.transaction-head-container {
+  display: flex;
+  gap: 137px;
+}
+
+.single-transaction-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.transaction-id-nd-date {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 35px;
+  padding-bottom: 32px;
+}
+.transaction-id-box {
+  display: flex;
+  gap: 158px;
+}
+.transaction-price-nd-icon-container {
+  display: flex;
+  gap: 3px;
+}
+.transaction-id-txt {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.transaction-price-txt {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: #1e1f21;
+}
+.transaction-head-txt {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #212121;
+}
+.transaction-date-txt {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: #6a6a6d;
+}
+/* for web task */
+
+.task-container {
+  width: 100%;
+  max-width: 800px;
+  /* margin: 20px auto; */
+  margin-top: 40px;
+
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.task-tabs {
+  display: flex;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+  gap: 24px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+  color: #6a6a6d;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-button.active {
+  color: #1e1f21;
+  border-bottom: 2px solid #1e1f21;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18.2px;
+}
+
+.task-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.task-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table-heading {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  color: #6a6a6d;
+}
+.td-txt {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+.task-table tr:last-child td {
+  border-bottom: none;
+}
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 13px;
+  line-height: 15.6px;
+  font-weight: 500;
+}
+
+.status.request-sent {
+  background-color: #f1f1f5;
+  color: #6a6a6d;
+}
+
+.status.pending-action {
+  background-color: #f1f1f5;
+  color: #6a6a6d;
+}
+/* web tasks txt */
+.tasks-heading-txt {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22pxs;
+}
+.view-all {
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+/* web transaction  */
+.bold {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #1e1f21;
+}
